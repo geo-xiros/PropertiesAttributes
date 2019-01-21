@@ -43,9 +43,7 @@ namespace ConsoleApp11
             listOfTextBoxes.ForEach(tb => tb.Show());
             listOfTextBoxes.ForEach(tb => tb.Focus());
 
-            Console.Clear();
-
-            Console.WriteLine(textBoxes["Name"].Text);
+            Console.WriteLine(textBoxes["First Name"].Text);
             Console.WriteLine(textBoxes["Age"].Text);
             Console.WriteLine(textBoxes["Password"].Text);
             Console.ReadKey();
